@@ -16,7 +16,28 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+  <div class="product-priview-card">
+    <picture class="product-priview-card__picture">
+      <!-- Todo set image desktope -->
+      <img src="img/image-product-mobile.jpg" alt="Gabrielle Channel perfum on white surface" class="product-priview-card__img" width="343" height="240" srcset="img/image-product-mobile.jpg 1x, img/image-product-mobile@2x.jpg 2x">
+    </picture>
+    <div class="product-priview-card__info">
+      <h1 class="product-priview-card__title">Gabrielle Essence Eau De Parfum</h1>
+      <p class="product-priview-card__category">Perfume</p>
+      <p class="product-priview-card__description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of  CHANEL.</p>
+      <div class="product-priview-card__price-box">
+        <s class="product-priview-card__price">1149.99</s><span class="product-priview-card__old-price">1169.99</span>
+      </div>
+      <button class="button button--block" type="button">
+        <span class="button__inner">
+          <span class="button__prepend">
+            <img src="img/icon-cart.svg" alt="" class="button__icon" width="15" height="16" aria-hidden="true">
+          </span>
+          <span class="button__text">Add to Cart</span>
+        </span>
+      </button>
+    </div>
+  </div>
 
 
   <script src="js/main.js"></script>
