@@ -1,3 +1,14 @@
+/* CUSTOM PROPS */
+:root {
+  --body-bg: #F2EAE2;
+  --text-color: #6C7289;
+  --text-color-dark: #1C232B;
+  --primary: #3D8168;
+
+  /* FONTS */
+    --body-font-family: "Montserrat", "Arial", sans-serif;
+    --heading-font-family: "Fraunces", "Times New Roman", serif
+}
 /* GLOBAL */
 html {
   box-sizing: border-box;
