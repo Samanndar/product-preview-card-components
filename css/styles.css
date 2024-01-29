@@ -181,8 +181,6 @@ select:-webkit-autofill:focus {
 .button--primary:hover {
   background-color: var(--primary-hover);
 }
-.button--block {
-}
 .button__inner {
   display: flex;
   justify-content: center;
