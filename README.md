@@ -1,1 +1,1 @@
-# product-preview-card-components
+# product-preview-card-components in course MJ !!!
